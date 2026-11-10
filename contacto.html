@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>TechStar | Contacto</title>
+
+
+  <!-- Google Font -->
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+
+  <!-- CSS -->
+
+  <link
+    rel="stylesheet"
+    href="styles.css"
+  >
+
+</head>
+
+
+<body>
+
+  <h1>
+    Contacto
+  </h1>
+
+  <!-- ==========================
+       HEADER
+  =========================== -->
+
+  <header class="navbar">
+
+    <div class="logo">
+      <a href="index.html">
+        <img src="assets/logohq-Photoroom.png" alt="Logo">
+      </a>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="tecnologias.html">Tecnologías</a></li>
+        <li><a href="ingresar.html">Ingresar</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+
+
+  <!-- ==========================
+       CONTENIDO PRINCIPAL
+  =========================== -->
+
+  <main>
+
+
+    <!-- ==========================
+         CONTACTO
+    =========================== -->
+
+    <section class="contact">
+
+      <h2>
+        Ponte en contacto
+      </h2>
+
+
+      <form
+        id="contactForm"
+        class="contact-form"
+      >
+
+
+        <!-- Campo 1 -->
+
+        <input
+          type="text"
+          id="name"
+          placeholder="Tu nombre"
+          required
+        >
+
+
+        <!-- Campo 2 -->
+
+        <input
+          type="email"
+          id="email"
+          placeholder="Tu email"
+          required
+        >
+
+
+        <!-- Campo 3 -->
+
+        <input
+          type="text"
+          id="subject"
+          placeholder="Asunto"
+          required
+        >
+
+
+        <!-- Campo 4 -->
+
+        <select
+          id="service"
+          name="service"
+          required
+        >
+
+          <option
+            value=""
+            disabled
+            selected
+          >
+            Seleccioná un servicio
+          </option>
+
+          <option value="desarrollo-web">
+            Desarrollo Web
+          </option>
+
+          <option value="aplicaciones-moviles">
+            Aplicaciones Móviles
+          </option>
+
+          <option value="software-empresarial">
+            Software Empresarial
+          </option>
+
+          <option value="automatizacion">
+            Automatización
+          </option>
+
+          <option value="inteligencia-artificial">
+            Inteligencia Artificial
+          </option>
+
+        </select>
+
+
+        <!-- Campo 5 -->
+
+        <textarea
+          id="message"
+          placeholder="Escribe tu mensaje..."
+          required
+        ></textarea>
+
+
+        <button
+          type="submit"
+          class="btn primary"
+        >
+          Enviar mensaje
+        </button>
+
+
+      </form>
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- ==========================
+       FOOTER
+  =========================== -->
+
+  <footer>
+
+    <img
+      src="assets/logo_claro.png"
+      alt="Logo de TechStar"
+      class="footer-logo"
+    >
+
+    <h3>
+      TechStar
+    </h3>
+
+    <p>
+      Innovando el futuro del software.
+    </p>
+
+    <div class="footer-contact">
+
+      <p>
+        📧 contacto@techstar.com
+      </p>
+
+      <p>
+        📞 +54 351 620 7451
+      </p>
+
+      <p>
+        📍 Córdoba, Argentina
+      </p>
+
+    </div>
+
+  </footer>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
