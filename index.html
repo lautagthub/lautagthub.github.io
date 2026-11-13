@@ -1,55 +1,377 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TechStar - Transformación Digital</title>
-  <link rel="stylesheet" href="styles.css">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>TechStar | Desarrollo de Software</title>
+
+  <!-- Google Font -->
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- CSS -->
+  <link
+    rel="stylesheet"
+    href="styles.css"
+  >
+
 </head>
+
+
 <body>
 
-  <!-- Barra de navegación opcional / Encabezado -->
-  <header class="site-header">
-    <div class="nav-container">
-      <a href="#" class="logo">Tech<span>Star</span></a>
-      <nav class="nav-links">
-        <a href="#inicio">Inicio</a>
-        <a href="#contacto">Contacto</a>
-      </nav>
+
+  <!-- ==========================
+       HEADER
+  =========================== -->
+
+  <header class="navbar">
+
+    <div class="logo">
+      <a href="index.html">
+        <img src="assets/logohq-Photoroom.png" alt="Logo">
+      </a>
     </div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="tecnologias.html">Tecnologías</a></li>
+        <li><a href="ingresar.html">Ingresar</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
   </header>
 
-  <!-- Sección Hero con el video promocional -->
-  <section id="inicio" class="hero-video-section">
-    <div class="hero-container">
-      
-      <!-- Columna de texto -->
+
+
+  <!-- ==========================
+       CONTENIDO PRINCIPAL
+  =========================== -->
+
+  <main>
+
+
+    <!-- ==========================
+         HERO
+    =========================== -->
+
+    <section
+      class="hero"
+      id="inicio"
+    >
+
       <div class="hero-content">
-        <span class="badge">Tecnología, diseño y cercanía</span>
-        <h1>Haz que tu negocio llegue mucho más allá de tu cuadra</h1>
+
+        <h1>
+          Construimos software
+          que impulsa el futuro
+        </h1>
+
         <p>
-          El problema no es tu talento, es que en internet todavía no existís. 
-          En <strong>TechStar</strong> transformamos tu esfuerzo en una plataforma digital 
-          moderna, segura y optimizada para atraer nuevos clientes.
+          En TechStar desarrollamos soluciones
+          digitales modernas, eficientes y
+          adaptadas a las necesidades de cada empresa.
         </p>
+
         <div class="hero-buttons">
-          <a href="#contacto" class="btn-primary">Impulsá tu proyecto</a>
-          <a href="#" class="btn-secondary">Ver tecnologías</a>
+
+          <a
+            href="#servicios"
+            class="btn primary"
+          >
+            Nuestros servicios
+          </a>
+
+          <a
+            href="contacto.html"
+            class="btn secondary"
+          >
+            Contactanos
+          </a>
+
         </div>
+
       </div>
 
-      <!-- Columna del video (Asegurate de guardar tu video en public/assets/promo-techstar.mp4) -->
-      <div class="hero-media">
-        <div class="video-wrapper">
-          <video controls preload="metadata" poster="assets/hero.png">
+    </section>
+
+
+
+    <!-- ==========================
+         VIDEO PROMOCIONAL
+    =========================== -->
+
+    <section class="promo" id="video-promocional">
+
+      <div class="promo-content">
+
+        <h2>Conocé TechStar</h2>
+
+        <p>Descubrí cómo transformamos ideas en soluciones digitales.</p>
+
+        <div class="promo-video-wrapper">
+          <video
+            class="promo-video"
+            controls
+            preload="metadata"
+            playsinline
+            aria-label="Video promocional de TechStar"
+          >
             <source src="assets/promo-techstar.mp4" type="video/mp4">
-            Tu navegador no soporta la reproducción de videos HTML5.
+            Tu navegador no puede reproducir este video.
           </video>
         </div>
+
       </div>
 
+    </section>
+
+
+    <!-- ==========================
+         SERVICIOS
+    =========================== -->
+
+    <section
+      class="services"
+      id="servicios"
+    >
+
+      <h2>
+        Nuestros Servicios
+      </h2>
+
+
+      <div class="cards">
+
+
+        <!-- Servicio 1 -->
+
+        <article class="card">
+
+          <h3>
+            Desarrollo Web
+          </h3>
+
+          <p>
+            Creamos sitios web modernos,
+            rápidos, seguros y adaptables
+            a cualquier dispositivo.
+          </p>
+
+        </article>
+
+
+        <!-- Servicio 2 -->
+
+        <article class="card">
+
+          <h3>
+            Aplicaciones Móviles
+          </h3>
+
+          <p>
+            Desarrollamos aplicaciones
+            móviles intuitivas para Android
+            e iOS.
+          </p>
+
+        </article>
+
+
+        <!-- Servicio 3 -->
+
+        <article class="card">
+
+          <h3>
+            Software Empresarial
+          </h3>
+
+          <p>
+            Creamos sistemas personalizados
+            para mejorar la gestión de
+            diferentes empresas.
+          </p>
+
+        </article>
+
+
+        <!-- Servicio 4 -->
+
+        <article class="card">
+
+          <h3>
+            Automatización
+          </h3>
+
+          <p>
+            Automatizamos procesos para
+            reducir tareas repetitivas y
+            mejorar la productividad.
+          </p>
+
+        </article>
+
+
+        <!-- Servicio 5 -->
+
+        <article class="card">
+
+          <h3>
+            Inteligencia Artificial
+          </h3>
+
+          <p>
+            Incorporamos soluciones de IA
+            y Machine Learning para mejorar
+            procesos empresariales.
+          </p>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==========================
+         SOBRE NOSOTROS
+    =========================== -->
+
+    <section
+      class="about"
+      id="nosotros"
+    >
+
+      <div class="about-content">
+
+        <h2>
+          Sobre nosotros
+        </h2>
+
+        <p>
+          TechStar es una empresa dedicada
+          al desarrollo de soluciones
+          digitales para empresas y
+          emprendimientos.
+        </p>
+
+        <p>
+          Nuestro objetivo es utilizar
+          la tecnología para transformar
+          ideas en herramientas digitales
+          modernas, eficientes y fáciles
+          de utilizar.
+        </p>
+
+        <p>
+          Trabajamos con tecnologías
+          modernas y buscamos crear
+          soluciones que permitan a
+          nuestros clientes crecer y
+          mejorar sus procesos.
+        </p>
+
+      </div>
+
+
+      <div class="about-values">
+
+        <article>
+
+          <h3>
+            Nuestra misión
+          </h3>
+
+          <p>
+            Desarrollar software útil,
+            innovador y accesible.
+          </p>
+
+        </article>
+
+
+        <article>
+
+          <h3>
+            Nuestra visión
+          </h3>
+
+          <p>
+            Ser una empresa reconocida
+            por sus soluciones tecnológicas
+            innovadoras.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- ==========================
+       FOOTER
+  =========================== -->
+
+  <footer>
+
+    <img
+      src="assets/logo_claro.png"
+      alt="Logo de TechStar"
+      class="footer-logo"
+    >
+
+    <h3>
+      TechStar
+    </h3>
+
+    <p>
+      Innovando el futuro del software.
+    </p>
+
+    <div class="footer-contact">
+
+      <p>
+        📧 contacto@techstar.com
+      </p>
+
+      <p>
+        📞 +54 351 620 7451
+      </p>
+
+      <p>
+        📍 Córdoba, Argentina
+      </p>
+
     </div>
-  </section>
+
+  </footer>
+
 
 </body>
+
 </html>
